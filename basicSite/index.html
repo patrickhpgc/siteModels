@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="sass/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mediaQuerie.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Mukti</title>
+</head>
+
+<body style="overflow-x: hidden;">
+
+    <header>
+        <div
+            class="container d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between p-3">
+            <div class="logo d-flex align-items-center py-3 py-lg-0">
+                <img src="assets/media/logo.png" alt="Logo">
+            </div>
+            <div class="contact d-flex flex-wrap justify-content-center">
+                <div class="number d-flex align-items-center">
+                    <div class="px-3">
+                        <i class="fa-solid fa-phone fs-2 text-blue"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div>Número:</div>
+                        <div class="fs-5 fw-bold text-gray-700 text-contact">(00) 9 9999 - 9999</div>
+                    </div>
+                </div>
+                <div class="address d-flex align-items-center">
+                    <div class="px-3">
+                        <i class="fa-solid fa-envelope fs-2 text-blue"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div>Email:</div>
+                        <div class="fs-5 fw-bold text-gray-700 text-contact">email@email.com.br</div>
+                    </div>
+                </div>
+                <div class="email d-flex align-items-center">
+                    <div class="px-3">
+                        <i class="fa-solid fa-map-location fs-2 text-blue"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div>Endereço:</div>
+                        <div class="fs-5 fw-bold text-gray-700 text-contact">Rua fulado da silva, 19, XX</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue sticky-top">
+            <div class="container ">
+                <nav class="navbar navbar-expand-lg bg-body-blue">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white" href="#">MUKTI</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Médicos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dr. Jason Kovalsky</a></li>
+                                        <li><a class="dropdown-item" href="#">Patricia Mcneel</a></li>
+                                        <li><a class="dropdown-item" href="#">William Khanna</a></li>
+                                        <li><a class="dropdown-item" href="#">Eric Patterson</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Serviços
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Psiquiatria</a></li>
+                                        <li><a class="dropdown-item" href="#">Lipo HD.</a></li>
+                                        <li><a class="dropdown-item" href="#">Cardiologia</a></li>
+                                        <li><a class="dropdown-item" href="#">Oftalmologia</a></li>
+                                        <li><a class="dropdown-item" href="#">Pediatria</a></li>
+                                        <li><a class="dropdown-item" href="#">Angiologia</a></li>
+                                        <li><a class="dropdown-item" href="#">Coloproctologia</a></li>
+                                        <li><a class="dropdown-item" href="#">Ginecologia</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold" aria-current="page" href="#">Equipe
+                                        médica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold" aria-current="page" href="#">Contato</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="d-flex align-items-center" style="height: 100%;">
+                <div class="container">
+                    <div>
+                        <h2>A melhor clínica médica</h2>
+                        <h1 class="fw-bold text-blue">Trazendo Saúde <span class="text-black">para<span></h1>
+                        <h1 class="fw-bold">Toda a sua Família</h1>
+                        <button class="btn btn-blue">Agendar Consulta <i class="fa-solid fa-angles-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-light">
+            <div class="container p-5">
+                <div class="text-center" data-aos="fade">
+                    <h1 class="fw-light">Oferecemos serviço especializado</h1>
+                    <h1 class="fw-bold">Conheça alguns deles</h1>
+                </div>
+                <div class="container-team d-flex flex-wrap justify-content-around mt-5">
+                    <div class="m-2" style="max-width: 270px;">
+                        <div class="card card-shadow border-0 p-3">
+                            <div class="card-body">
+                                <img src="assets/media/icon-1.png" alt="Ícone 1">
+                                <h5 class="mt-4 fw-bold">Tratamento médico</h5>
+                                <p class="text-gray-600">Lorem ipsum dolor sit amete consectetur adipisicing elite.
+                                    vlote optio animi?</p>
+                                <a href="#" class="link-blue text-decoration-none text-gray-900 fw-bold">Saber mais <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-2" style="max-width: 270px;">
+                        <div class="card card-shadow border-0 p-3">
+                            <div class="card-body">
+                                <img src="assets/media/icon-2.png" alt="Ícone 2">
+                                <h5 class="mt-4 fw-bold">Emergência</h5>
+                                <p class="text-gray-600">Lorem ipsum dolor sit amete consectetur adipisicing elite.
+                                    vlote optio animi?</p>
+                                <a href="#" class="link-blue text-decoration-none text-gray-900 fw-bold">Saber mais <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-2" style="max-width: 270px;">
+                        <div class="card card-shadow border-0 p-3">
+                            <div class="card-body">
+                                <img src="assets/media/icon-3.png" alt="Ícone 3">
+                                <h5 class="mt-4 fw-bold">Médicos proficionais</h5>
+                                <p class="text-gray-600">Lorem ipsum dolor sit amete consectetur adipisicing elite.
+                                    vlote optio animi?</p>
+                                <a href="#" class="link-blue text-decoration-none text-gray-900 fw-bold">Saber mais <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-2" style="max-width: 270px;">
+                        <div class="card card-shadow border-0 p-3">
+                            <div class="card-body">
+                                <img src="assets/media/icon-4.png" alt="Ícone 4">
+                                <h5 class="mt-4 fw-bold">Doutores qualificados</h5>
+                                <p class="text-gray-600">Lorem ipsum dolor sit amete consectetur adipisicing elite.
+                                    vlote optio animi?</p>
+                                <a href="#" class="link-blue text-decoration-none text-gray-900 fw-bold">Saber mais <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white">
+            <div class="container p-5 animate__fadeIn">
+                <div class="text-center" data-aos="fade">
+                    <h1 class="fw-light">Nós somos os melhores</h1>
+                    <h1 class="fw-bold">Neste departamento</h1>
+                </div>
+                <div class="mt-5">
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="item-btn bg-light p-3 d-flex align-items-center justify-content-center m-2"
+                                style="width: 110px; height: 100px;cursor: pointer;" id="item-btn-1"
+                                onclick="changeItemContent(1)" data-aos="fade-up">
+                                <img src="assets/media/icon-2-1.png" alt="Icone 1">
+                            </div>
+                            <div class="item-btn bg-light p-3 d-flex align-items-center justify-content-center m-2"
+                                style="width: 110px; height: 100px;cursor: pointer;" id="item-btn-2"
+                                onclick="changeItemContent(2)" data-aos="fade-up" data-aos-delay="100">
+                                <img src="assets/media/icon-2-2.png" alt="Icone 2">
+                            </div>
+                            <div class="item-btn bg-light p-3 d-flex align-items-center justify-content-center m-2"
+                                style="width: 110px; height: 100px;cursor: pointer;" id="item-btn-3"
+                                onclick="changeItemContent(3)" data-aos="fade-up" data-aos-delay="150">
+                                <img src="assets/media/icon-2-3.png" alt="Icone 3">
+                            </div>
+                            <div class="item-btn bg-light p-3 d-flex align-items-center justify-content-center m-2"
+                                style="width: 110px; height: 100px;cursor: pointer;" id="item-btn-4"
+                                onclick="changeItemContent(4)" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/media/icon-2-4.png" alt="Icone 4">
+                            </div>
+                            <div class="item-btn bg-light p-3 d-flex align-items-center justify-content-center m-2"
+                                style="width: 110px; height: 100px;cursor: pointer;" id="item-btn-5"
+                                onclick="changeItemContent(5)" data-aos="fade-up" data-aos-delay="250">
+                                <img src="assets/media/icon-2-5.png" alt="Icone 5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="items-contents w-100">
+
+                            <div class="container-item d-none flex-wrap w-100 p-3 shadow item-content"
+                                id="item-content-1">
+                                <div class="div-left-item p-2 p-lg-5 p-md-3">
+                                    <h3 class="fw-bold">Especialidade em laboratórios</h3>
+                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this man Manucur
+                                        produc
+                                        rather conven cuvatie mantan this conven cuvate bad Credibly envisioneer
+                                        ubiquitous
+                                        niche markets transparent relations Dramatically enable worldwide action items
+                                        whereas magnetic source motin was procedur arramin</p>
+                                    <div class="mt-2 d-flex flex-wrap justify-content-start">
+                                        <div class="me-5">
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button class="btn btn-blue">Agendar Consulta <i
+                                                class="fa-solid fa-angles-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="div-right-item d-flex justify-content-end">
+                                    <img src="assets/images/image-item-1.jpg" class="w-100" alt="Image item 1">
+                                </div>
+                            </div>
+
+                            <div class="container-item d-none flex-wrap w-100 p-3 shadow item-content"
+                                id="item-content-2">
+                                <div class="div-left-item p-2 p-lg-5 p-md-3">
+                                    <h3 class="fw-bold">Especialidade em laboratórios</h3>
+                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this man Manucur
+                                        produc
+                                        rather conven cuvatie mantan this conven cuvate bad Credibly envisioneer
+                                        ubiquitous
+                                        niche markets transparent relations Dramatically enable worldwide action items
+                                        whereas magnetic source motin was procedur arramin</p>
+                                    <div class="mt-2 d-flex justify-content-start">
+                                        <div class="me-5">
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button class="btn btn-blue">Agendar Consulta <i
+                                                class="fa-solid fa-angles-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="div-right-item d-flex justify-content-end">
+                                    <img src="assets/images/image-item-2.jpg" class="w-100" alt="Image item 2">
+                                </div>
+                            </div>
+
+                            <div class="container-item d-none flex-wrap w-100 p-3 shadow item-content"
+                                id="item-content-3">
+                                <div class="div-left-item p-2 p-lg-5 p-md-3">
+                                    <h3 class="fw-bold">Especialidade em laboratórios</h3>
+                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this man Manucur
+                                        produc
+                                        rather conven cuvatie mantan this conven cuvate bad Credibly envisioneer
+                                        ubiquitous
+                                        niche markets transparent relations Dramatically enable worldwide action items
+                                        whereas magnetic source motin was procedur arramin</p>
+                                    <div class="mt-2 d-flex justify-content-start">
+                                        <div class="me-5">
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button class="btn btn-blue">Agendar Consulta <i
+                                                class="fa-solid fa-angles-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="div-right-item d-flex justify-content-end">
+                                    <img src="assets/images/image-item-3.jpg" class="w-100" alt="Image item 3">
+                                </div>
+                            </div>
+
+                            <div class="container-item d-none flex-wrap w-100 p-3 shadow item-content"
+                                id="item-content-4">
+                                <div class="div-left-item p-2 p-lg-5 p-md-3">
+                                    <h3 class="fw-bold">Especialidade em laboratórios</h3>
+                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this man Manucur
+                                        produc
+                                        rather conven cuvatie mantan this conven cuvate bad Credibly envisioneer
+                                        ubiquitous
+                                        niche markets transparent relations Dramatically enable worldwide action items
+                                        whereas magnetic source motin was procedur arramin</p>
+                                    <div class="mt-2 d-flex justify-content-start">
+                                        <div class="me-5">
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button class="btn btn-blue">Agendar Consulta <i
+                                                class="fa-solid fa-angles-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="div-right-item d-flex justify-content-end">
+                                    <img src="assets/images/image-item-4.jpg" class="w-100" alt="Image item 4">
+                                </div>
+                            </div>
+
+                            <div class="container-item d-none flex-wrap w-100 p-3 shadow item-content"
+                                id="item-content-5">
+                                <div class="div-left-item p-2 p-lg-5 p-md-3">
+                                    <h3 class="fw-bold">Especialidade em laboratórios</h3>
+                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this man Manucur
+                                        produc
+                                        rather conven cuvatie mantan this conven cuvate bad Credibly envisioneer
+                                        ubiquitous
+                                        niche markets transparent relations Dramatically enable worldwide action items
+                                        whereas magnetic source motin was procedur arramin</p>
+                                    <div class="mt-2 d-flex justify-content-start">
+                                        <div class="me-5">
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="">
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-check fw-extra-bold text-blue"></i>
+                                                Profissionais qualificados
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button class="btn btn-blue">Agendar Consulta <i
+                                                class="fa-solid fa-angles-right"></i></button>
+                                    </div>
+                                </div>
+                                <div class="div-right-item d-flex justify-content-end">
+                                    <img src="assets/images/image-item-5.jpg" class="w-100" alt="Image item 5">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="bg-blue">
+                <div class="container p-5 d-flex flex-wrap align-content-center justify-content-around">
+                    <div class="d-flex m-2 text-white">
+                        <div class="d-flex align-items-center p-3">
+                            <img src="assets/media/icon-white-1.png" alt="Item white 1">
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <div>
+                                <h1 class="fw-bold">120+</h1>
+                            </div>
+                            <div class="" style="font-weight: 500;">
+                                Clientes por dia
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2 text-white">
+                        <div class="d-flex align-items-center p-3">
+                            <img src="assets/media/icon-white-2.png" alt="Item white 2">
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <div>
+                                <h1 class="fw-bold">18+</h1>
+                            </div>
+                            <div class="" style="font-weight: 500;">
+                                Médicos qualificados
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2 text-white">
+                        <div class="d-flex align-items-center p-3">
+                            <img src="assets/media/icon-white-3.png" alt="Item white 3">
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <div>
+                                <h1 class="fw-bold">6+</h1>
+                            </div>
+                            <div class="" style="font-weight: 500;">
+                                Anos de experiência
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2 text-white">
+                        <div class="d-flex align-items-center p-3">
+                            <img src="assets/media/icon-white-4.png" alt="Item white 4">
+                        </div>
+                        <div class="d-flex flex-column p-3">
+                            <div>
+                                <h1 class="fw-bold">2704+</h1>
+                            </div>
+                            <div class="" style="font-weight: 500;">
+                                Diagnosticos fornecidos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container p-5">
+                <div class="text-center" data-aos="fade">
+                    <h1 class="fw-light">Conheça a nossa</h1>
+                    <h1 class="fw-bold">Equipe de médicos especialistas</h1>
+                </div>
+                <div class="d-flex align-content-center justify-content-around mt-5 flex-wrap">
+                    <div class="d-flex flex-column m-2 item-team" style="max-width: 270px" data-aos="fade-up">
+                        <div>
+                            <img src="assets/images/doctor-1.jpg" alt="Doctor 1">
+                        </div>
+                        <div class="p-3 bg-green-2 text-white">
+                            <h5 class="fw-bold">Dr. Jason Kovalsky</h5>
+                            <span>Cardiologista</span>
+                        </div>
+                        <div class="p-3 text-black">
+                            <span>Telefone: <span class="text-gray-600">(00) 0 0000-0000</span></span>
+                            <br>
+                            <span>Email: <span class="text-gray-600">email@email.com.br</span></span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column m-2 item-team" style="max-width: 270px" data-aos="fade-up"
+                        data-aos-delay="50">
+                        <div>
+                            <img src="assets/images/doctor-2.jpg" alt="Doctor 2">
+                        </div>
+                        <div class="p-3 bg-blue-400 text-white">
+                            <h5 class="fw-bold">Patricia Mcneel</h5>
+                            <span>Pediatra</span>
+                        </div>
+                        <div class="p-3 text-black">
+                            <span>Telefone: <span class="text-gray-600">(00) 0 0000-0000</span></span>
+                            <br>
+                            <span>Email: <span class="text-gray-600">email@email.com.br</span></span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column m-2 item-team" style="max-width: 270px" data-aos="fade-up"
+                        data-aos-delay="150">
+                        <div>
+                            <img src="assets/images/doctor-3.jpg" alt="Doctor 3">
+                        </div>
+                        <div class="p-3 bg-blue-600 text-white">
+                            <h5 class="fw-bold">William Khanna</h5>
+                            <span>Cirugião dentista</span>
+                        </div>
+                        <div class="p-3 text-black">
+                            <span>Telefone: <span class="text-gray-600">(00) 0 0000-0000</span></span>
+                            <br>
+                            <span>Email: <span class="text-gray-600">email@email.com.br</span></span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column m-2 item-team" style="max-width: 270px" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div>
+                            <img src="assets/images/doctor-4.jpg" alt="Doctor 1">
+                        </div>
+                        <div class="p-3 bg-blue-700 text-white">
+                            <h5 class="fw-bold">Eric Patterson</h5>
+                            <span>Terapeuta</span>
+                        </div>
+                        <div class="p-3 text-black">
+                            <span>Telefone: <span class="text-gray-600">(00) 0 0000-0000</span></span>
+                            <br>
+                            <span>Email: <span class="text-gray-600">email@email.com.br</span></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="d-flex flex-wrap">
+                <div class="py-5 div-left"
+                    style="background-image: url('assets/images/background-left.jpg'); background-repeat: none; background-size: cover; background-position: left;">
+                    <div class="d-flex justify-content-center justify-content-lg-end p-3 p-lg-0 p-md-0"
+                        style="height: 100%;" data-aos="fade-right">
+                        <div class="pe-0 pe-lg-5">
+                            <div class="text-white" data-aos="fade">
+                                <h2 class="fw-bold">24 Horas</h2>
+                                <h2 class="fw-bold">Consulte nossos horários</h2>
+                            </div>
+                            <div class="mt-4 text-white">
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Segunda-feira</span>
+                                    <span>8:00 às 22:00</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Terça-feira</span>
+                                    <span>8:00 às 22:00</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Quarta-feira</span>
+                                    <span>8:00 às 22:00</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Quinta-feira</span>
+                                    <span>8:00 às 22:00</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Sexta-feira</span>
+                                    <span>8:00 às 00:00</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Sábado</span>
+                                    <span>24hrs</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <span>Domingo</span>
+                                    <span>24hrs</span>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 div-right"
+                    style="background-image: url('assets/images/background-right.jpg'); background-repeat: none; background-size: cover; background-position: right;">
+                    <div class="d-flex justify-content-center justify-content-lg-start" style="height: 100%;"
+                        data-aos="fade-left">
+                        <div class="ps-0 ps-lg-5">
+                            <div class="text-white">
+                                <h2 class="fw-bold">Agende uma</h2>
+                                <h2 class="fw-bold">Consulta agora</h2>
+                            </div>
+                            <div class="div-form mt-4 p-3 p-lg-0 p-md-0" style="min-width: 373px;">
+                                <div class="form-floating mb-3">
+                                    <form class="form-floating text-white w-100" id="form-contact" action="#"
+                                        method="POST">
+                                        <div class="mb-3 text-white">
+                                            <input type="text" class="form-control bg-transparent text-white"
+                                                name="name" placeholder="Seu nome">
+                                        </div>
+                                        <div class="mb-3 text-white">
+                                            <input type="email" class="form-control bg-transparent text-white"
+                                                name="email" placeholder="Seu email">
+                                        </div>
+                                        <div class="mb-3 text-white">
+                                            <input type="text" class="form-control bg-transparent text-white"
+                                                name="subject" placeholder="Assunto">
+                                        </div>
+                                        <div class="mb-3 text-white">
+                                            <textarea class="form-control  bg-transparent text-white" rows="3"
+                                                placeholder="Sua mensagem" name="message"
+                                                style="max-height: 200px;"></textarea>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-white text-blue" type="submit">
+                                                Enviar mensagem
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="d-flex justify-content-center">
+        <div class="p-3">
+            Copyright © 2023 Mukti | Desenvolvido por <a href="https://webviewtech.vercel.app/"
+            target="_blank">WebviewTech</a>
+        </div>
+        
+    </footer>
+    
+    <div class="w-100 d-flex justify-content-end fixed-bottom px-3 px-lg-5 px-md-4 py-3">
+        <div class="div-button-scroll-top d-none">
+            <button class="btn btn-blue rounded-circle" style="min-width: 42px;min-height: 42px;cursor: ponter;"
+                onclick="scrollToTop()">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
